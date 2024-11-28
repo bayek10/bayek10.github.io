@@ -14,64 +14,72 @@
     }
 
     body {
-      font-family: Arial, sans-serif;
-      color: #37352F;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
       line-height: 1.6;
       padding: 0 1rem;
-      background-color: #fafafa;
+      background-color: #f4f4f9;
     }
 
     .container {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 1rem;
-      background: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     h1, h2, h3 {
-      font-weight: 700;
-      margin-bottom: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #222;
     }
 
     h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
     }
 
     h3 {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
     }
 
     p {
       margin-bottom: 1rem;
+      color: #555;
     }
 
     a {
       color: #0070f3;
       text-decoration: none;
+      transition: color 0.3s;
     }
 
     a:hover {
-      text-decoration: underline;
+      color: #0056b3;
     }
 
     .header {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
+      margin-bottom: 2rem;
+    }
+
+    .header-text {
+      margin-left: 1.5rem;
     }
 
     .profile-image {
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .links {
@@ -79,20 +87,19 @@
     }
 
     .links a {
-      margin-right: 1rem;
+      margin-right: 1.5rem;
     }
 
     hr {
       margin: 2rem 0;
       border: none;
-      border-top: 1px solid #eaeaea;
+      border-top: 1px solid #ddd;
     }
 
     .section {
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
-    /* Responsive Design */
     @media (max-width: 768px) {
       .header {
         flex-direction: column;
@@ -103,6 +110,10 @@
       .profile-image {
         margin-bottom: 1rem;
       }
+
+      .header-text {
+        margin-left: 0;
+      }
     }
   </style>
 </head>
@@ -110,18 +121,18 @@
 <body>
   <div class="container">
     <header class="header">
-      <div>
+      <img class="profile-image" src="1f47e58c-a5cd-4ea4-aaf6-628b5146f0e5.png" alt="Sami Hass Profile Picture">
+      <div class="header-text">
         <h1>Sami Hass</h1>
-        <h2>I’m a software engineer turned technical product manager</h2>
+        <h3>I’m a software engineer turned technical product manager</h3>
         <p>At my core, I love to learn … and then build useful things from what I’ve learned.</p>
         <div class="links">
-          <a href="https://twitter.com/samisphere__">Twitter</a>
+          <a href="https://twitter.com/samisphere__">X/Twitter</a>
           <a href="https://www.linkedin.com/in/samihassaan/">LinkedIn</a>
-          <a href="https://github.com/bayek10">GitHub</a>
+          <a href="https://github.com/bayek10">GitHub(new)</a>
           <a href="https://drive.google.com/file/d/13PDIFD33o_uTTfeP6YIT6k-4YHm6Y7oN/view">Resume</a>
         </div>
       </div>
-      <img class="profile-image" src="1f47e58c-a5cd-4ea4-aaf6-628b5146f0e5.png" alt="Sami Hass Profile Picture">
     </header>
 
     <hr>
@@ -139,20 +150,52 @@
     <section class="section">
       <h3>My Story</h3>
       <p>
-        I grew up in northern Pakistan along the Afghan border & immigrated to Canada in my early teens. I started my career
-        as a <strong>software engineer</strong>, graduating from UWaterloo, working on infrastructure like data, cloud, and DevOps.
-        Over time, I realized I was drawn to the <strong>business side of things</strong>, which ensures what we build serves a purpose.
+        I grew up in northern Pakistan along the Afghan border & immigrated to Canada in my early teens. 
+        I started my career as a <strong>software engineer graduating from UWaterloo</strong>, working on the infrastructure side along data, cloud & DevOps. 
+        Over time, I realized <strong>I was drawn to the business side of things</strong>, which I view as the thing that ensures what we're building actually serves a purpose. 
+        That's exactly what was missing from my original work as a software engineer where my perspective of the world was equal to looking through a keyhole — 
+        building things at companies but having little idea how it connects to the world or has an impact or aligns with my life path (which I didn't know what that was either).
       </p>
+    
       <p>
-        At 22, I built a <strong>profitable e-commerce business</strong> producing ergonomics products, scaling it to a cash-flowing
-        venture. Later, I became a <strong>product manager in San Francisco</strong>, growing physical product portfolios and building
-        analytics dashboards for inventory and pricing.
+        I decided to step away and pursue that curiosity further. 
+        <strong>Knowing nothing about business, I decided to build one completely by myself at the age of 22</strong>, 
+        producing ergonomics products like laptop stands & gel sitting cushions for those of us who sit at a desk all day. 
+        I managed to scale this into a <strong>profitable cash-flowing business</strong> that gave me freedoms of time & location I previously had no access to, 
+        which I used to explore living in other parts of the world (Dubai).
       </p>
+    
       <p>
-        Now, I’m exploring the <strong>deeper layers of the tech stack</strong>, like infrastructure, and how it enables the
-        development of transformative technologies like AI.
+        Not a tech business, I know. But 'business' doesn't discriminate. At the end of the day, it's just a 
+        <strong>collection of skills that applies to any type of business</strong> — strategy, customer insight, product development, 
+        market differentiation, customer psychology, financial management, personal accountability, delegation & self-growth.
+      </p>
+    
+      <p>
+        As I was figuring out my business & operations skills, I started working as a <strong>product manager in San Francisco</strong> 
+        at an e-commerce holding company. I grew their portfolio of physical products & helped build an analytics dashboard on top to optimize & 
+        automate things like inventory forecasting, dynamic pricing & advertising.
+      </p>
+    
+      <p>
+        Now? I have a <strong>renewed interest in the deeper layers of the tech stack</strong>, aka infra, and how it enables the development 
+        & distribution of key technology like AI. There are challenges in this part of the stack that I want to help solve, 
+        that I believe have a large impact on everyone.
+      </p>
+    
+      <p><em>
+        <u>
+          I am currently exploring where I am best suited to contribute. If you'd like to speak, please shoot me a message on 
+          <a href="https://twitter.com/samisphere__">X</a> or <a href="https://www.linkedin.com/in/samihassaan/">LinkedIn</a>.
+        </u>
+      </em></p>
+    
+      <p>
+        In the meantime, I'm building software to help out my friend who has a costly & painful problem in his business furnishing villas with beautiful Italian furniture. 
+        Check it out <a href="https://github.com/bayek10/smartcatalog">here</a> :)
       </p>
     </section>
+    
   </div>
 </body>
 
